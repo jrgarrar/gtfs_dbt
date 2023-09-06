@@ -18,22 +18,34 @@ $ dbt debug
 
 # Configure your API key for TriMet
 $ echo "<your_app_id_for_the_api>" > appID.txt
-```
 
-### Usage
-
-```bash
 # Pull down seed data from GTFS
 $ python fetch_gtfs_data.py
 
 # Pull down seed data from TriMet
 $ python fetch_trimet_data.py
+```
 
+### Basic Usage
+
+```bash
 # Upload the seed files to your database as tables
 $ dbt seed
 
 # Generate the actual tables from model files 
 $ dbt run
+```
+
+### Advanced Usage
+
+##### Work w/ Individual Files
+
+```bash
+# Seed using a single file
+$ dbt seed --select agency_seed
+
+# Build a model using a single file
+$ dbt run --select stg_gtfs__agency
 ```
 
 ### Other Resources

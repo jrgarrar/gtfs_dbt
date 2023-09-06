@@ -6,7 +6,6 @@ Pull TriMet data for use in seeding tables.
 
 # Library Imports
 import os
-import json
 import pandas as pd
 import pathlib
 import requests
