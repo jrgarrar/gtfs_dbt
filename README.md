@@ -16,13 +16,19 @@ $ dbt init
 # Test that configuration worked
 $ dbt debug
 
-# Pull down fact tables from GTFS
-$ python fetch_data.py
+# Configure your API key for TriMet
+$ echo "<your_app_id_for_the_api>" > appID.txt
 ```
 
 ### Usage
 
 ```bash
+# Pull down seed data from GTFS
+$ python fetch_gtfs_data.py
+
+# Pull down seed data from TriMet
+$ python fetch_trimet_data.py
+
 # Upload the seed files to your database as tables
 $ dbt seed
 

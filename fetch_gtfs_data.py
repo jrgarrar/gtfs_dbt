@@ -11,7 +11,6 @@ import requests
 import zipfile
 
 # Globals
-### A variable that points to this file's parent directory
 PARENT_DIR = pathlib.Path(__file__).parent.absolute()
 SEED_DIR = os.path.join(PARENT_DIR, 'seeds')
 ZIP_FILE = os.path.join(SEED_DIR, 'gtfs_fact_tables.zip')
