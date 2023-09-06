@@ -1,6 +1,6 @@
 /* Build Vehicles Table */
 
-{{ config(materialized='table') }}
+{{ config(materialized='view') }}
 
 with alerts as (
 
@@ -13,7 +13,7 @@ with alerts as (
         HeaderText,
         DescriptionText
     from 
-        {{ ref('alerts_seed') }}
+        {{ ref('data_alerts_seed') }}
 )
 
 select 

@@ -1,0 +1,13 @@
+gtfs:
+  outputs:
+    dev:
+      account: thisisyournowflakeinstance.us-west-2.aws
+      database: DEV
+      password: ThisIsYourSnowflakePassword
+      role: DEVELOPER
+      schema: JUSTIN
+      threads: 1
+      type: snowflake
+      user: JUSTINGARRARD
+      warehouse: COMPUTE_WH
+  target: dev
