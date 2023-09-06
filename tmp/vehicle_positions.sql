@@ -1,6 +1,6 @@
 /* Build Vehicles Table */
 
-{{ config(materialized='table') }}
+{{ config(materialized='view') }}
 
 with vehicle_positions as (
 
@@ -15,7 +15,7 @@ with vehicle_positions as (
         CongestionLevel,
         OccupancyStatus
     from 
-        {{ ref('vehicle_position_seed') }}
+        {{ ref('data_vehicle_positions_seed') }}
 )
 
 select 
