@@ -2,7 +2,7 @@
 
 {{ config(materialized='view') }}
 
-with agency as (
+with source as (
 
     select 
         "AGENCY_ID",

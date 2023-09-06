@@ -32,7 +32,12 @@ $ dbt run
 
 ### Other Resources
 
+##### DBT
+
 * [DBT Init Documentation](https://docs.getdbt.com/reference/commands/init)
 * [DBT Quickstart Documentation](https://docs.getdbt.com/quickstarts/manual-install?step=1)
+* [DBT Filename Conventions](https://docs.getdbt.com/guides/best-practices/how-we-structure/2-staging#staging-files-and-folders)
+
+##### GTFS / TriMet
 * [GTFS Developer Pages](https://developers.google.com/transit/gtfs-realtime)
 * [TriMet Developer Pages](https://developer.trimet.org/)

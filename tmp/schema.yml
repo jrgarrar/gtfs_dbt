@@ -1,0 +1,93 @@
+
+version: 2
+
+models:
+  - name: agency
+    description: "TBD"
+    columns:
+      - name: TripDescriptor
+        description: "TBD"
+
+  - name: calendar_dates
+    description: "TBD"
+    columns:
+      - name: ActivePeriod
+        description: "TBD"
+
+  - name: calendar
+    description: "TBD"
+    columns:
+      - name: ActivePeriod
+        description: "TBD"
+
+  - name: fare_attributes
+    description: "TBD"
+    columns:
+      - name: ActivePeriod
+        description: "TBD"
+
+  - name: fare_rules
+    description: "TBD"
+    columns:
+      - name: ActivePeriod
+        description: "TBD"
+
+  - name: feed_info
+    description: "TBD"
+    columns:
+      - name: ActivePeriod
+        description: "TBD"
+
+  - name: linked_datasets
+    description: "TBD"
+    columns:
+      - name: ActivePeriod
+        description: "TBD"
+
+  - name: routes
+    description: "TBD"
+    columns:
+      - name: ActivePeriod
+        description: "TBD"
+
+  - name: route_directions
+    description: "TBD"
+    columns:
+      - name: ActivePeriod
+        description: "TBD"
+
+  - name: shapes
+    description: "TBD"
+    columns:
+      - name: ActivePeriod
+        description: "TBD"
+
+  - name: stops
+    description: "TBD"
+    columns:
+      - name: ActivePeriod
+        description: "TBD"
+
+  - name: stop_features
+    description: "TBD"
+    columns:
+      - name: ActivePeriod
+        description: "TBD"
+
+  - name: stop_times
+    description: "TBD"
+    columns:
+      - name: ActivePeriod
+        description: "TBD"
+
+  - name: transfers
+    description: "TBD"
+    columns:
+      - name: ActivePeriod
+        description: "TBD"
+
+  - name: trips
+    description: "TBD"
+    columns:
+      - name: ActivePeriod
+        description: "TBD"
