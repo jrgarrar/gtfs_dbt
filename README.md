@@ -10,7 +10,7 @@ This repository demonstrates how to configure a simple DBT pipeline for GTFS dat
 $ pip install dbt-snowflake
 
 # Use the interactive tool to configure a connection profile under ~/.dbt/profiles.yml
-# (An example can be found under resources/)
+# (An example output file can be found under resources/)
 $ dbt init
 
 # Test that configuration worked
