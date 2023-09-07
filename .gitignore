@@ -1,5 +1,10 @@
 appID.txt
-target/
 dbt_packages/
 logs/
+notebooks/.ipynb_checkpoints
+notebooks/*.html
+notebooks/*.pdf
+notebooks/credentials.txt 
+notebooks/venv
 seeds/*.csv
+target/
