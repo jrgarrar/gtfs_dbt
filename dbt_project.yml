@@ -27,3 +27,15 @@ clean-targets:         # directories to be removed by `dbt clean`
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
 
+seeds:
+  gtfs:
+    +schema: staging 
+
+models:
+  gtfs:
+    staging:
+      +schema: staging
+    hub:
+      +schema: hub
+    mart:
+      +schema: mart

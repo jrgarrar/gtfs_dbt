@@ -14,7 +14,7 @@ ranked_vehicle_locations as (
         "ROUTESUBTYPE" as "vehicle_subtype",
         rank() over ( partition by "vehicle_id" order by "vehicle_timestamp" desc ) as rnk
     from 
-        STG_TRIMET__VEHICLES
+        DEV.JUSTIN_STAGING.STG_TRIMET__VEHICLES
 ),
 
 current_vehicle_locations as (

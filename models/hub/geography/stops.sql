@@ -11,7 +11,7 @@ stops as (
         "STOP_LON" as "stop_longitude",
         "STOP_NAME" as "stop_name"
     from 
-        STOPS_SEED
+        DEV.JUSTIN_STAGING.STG_GTFS__STOPS
 )
 
 select 
