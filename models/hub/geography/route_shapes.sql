@@ -13,7 +13,7 @@ shapes as (
         "SHAPE_PT_LON" as "shape_longitude",
         "SHAPE_PT_SEQUENCE" as "shape_sequence"
     from 
-        SHAPES_SEED
+        DEV.JUSTIN_STAGING.STG_GTFS__SHAPES
 ),
 
 trips_one_direction as (
@@ -26,7 +26,7 @@ trips_one_direction as (
         "SHAPE_ID" as "shape_id",
         "TRIP_TYPE" as "trip_type"
     from 
-        TRIPS_SEED
+        DEV.JUSTIN_STAGING.STG_GTFS__TRIPS
     where 
         "direction_id" = 0
 ),
@@ -39,7 +39,7 @@ routes as (
         "ROUTE_LONG_NAME" as "route_name",
         "ROUTE_TYPE" as "route_type"
     from 
-        ROUTES_SEED
+        DEV.JUSTIN_STAGING.STG_GTFS__ROUTES
 ),
 
 shapes_to_routes as (

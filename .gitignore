@@ -1,11 +1,12 @@
+.user.yml
 appID.txt
 dbt_packages/
 logs/
-notebooks/.ipynb_checkpoints
+.ipynb_checkpoints/
 notebooks/*.html
 notebooks/*.pdf
 notebooks/credentials.txt 
 notebooks/venv
+osm_data/map
 seeds/*.csv
 target/
-osm_data/map
