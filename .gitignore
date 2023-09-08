@@ -8,3 +8,4 @@ notebooks/credentials.txt
 notebooks/venv
 seeds/*.csv
 target/
+osm_data/map
