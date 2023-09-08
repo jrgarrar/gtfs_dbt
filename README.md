@@ -59,3 +59,7 @@ $ dbt run --select stg_gtfs__agency
 ##### GTFS / TriMet
 * [GTFS Developer Pages](https://developers.google.com/transit/gtfs-realtime)
 * [TriMet Developer Pages](https://developer.trimet.org/)
+
+##### OpenStreetMap
+* [Portland Street Map](https://www.openstreetmap.org/export#map=11/45.5006/-122.7997)
+* [API Data Request](https://overpass-api.de/api/map?bbox=-123.1000,45.3000,-122.5000,45.7000)
